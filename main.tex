@@ -1,0 +1,120 @@
+\documentclass{article}
+
+
+% if you need to pass options to natbib, use, e.g.:
+%     \PassOptionsToPackage{numbers, compress}{natbib}
+% before loading neurips_2022
+
+
+% ready for submission
+% \usepackage{neurips_2022}
+
+
+% to compile a preprint version, e.g., for submission to arXiv, add add the
+% [preprint] option:
+% \usepackage[preprint]{neurips_2022}
+
+
+% to compile a camera-ready version, add the [final] option, e.g.:
+\usepackage[final]{neurips_2022}
+
+
+% to avoid loading the natbib package, add option nonatbib:
+%    \usepackage[nonatbib]{neurips_2022}
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[UTF8]{ctex}
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{xcolor}         % colors
+
+\usepackage{lastpage} % obtain the last page number
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}
+\chead{The title of final paper}
+\rhead{\small \thepage ~/~\pageref{LastPage}}
+\lfoot{}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\baselinestretch}{1.3}
+
+
+\title{The title of final paper}
+
+% The \author macro works with any number of authors. There are two commands
+% used to separate the names and addresses of multiple authors: \And and \AND.
+%
+% Using \And between authors leaves it to LaTeX to determine where to break the
+% lines. Using \AND forces a line break at that point. So, if LaTeX puts 3 of 4
+% authors names on the first line, and the last on the second line, try using
+% \AND instead of \And before the third author name.
+\author{%
+  Zhang San/张三\thanks{School of A, Southeast University, Nanjing, China.}\\
+  Student Number/学号: xxxxxx \\
+  \texttt{ZS@seu.edu.cn} \\
+  \And
+  Li Si/李四\thanks{School of B, Southeast University, Nanjing, China.} \\
+  xxxxxx \\
+  \texttt{LS@seu.edu.cn} \\
+  \And
+  Wang Er/王二\thanks{School of C, Southeast University, Nanjing, China.} \\
+  xxxxxx \\
+  \texttt{WE@seu.edu.cn} \\
+  % examples of more authors
+  % \And
+  % Coauthor \\
+  % Affiliation \\
+  % Address \\
+  % \texttt{email} \\
+  % \And
+  % Coauthor \\
+  % Affiliation \\
+  % Address \\
+  % \texttt{email} \\
+}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+  报告结构参考如下，可自我调整，请使用英文撰写。
+\end{abstract}
+
+
+\begin{center}
+\Large\textbf{The First Part (课程大作业)}
+\end{center}
+
+\section{Background}
+
+\section{Related Works}
+
+\section{Methods}
+
+\section{Experimental Details}
+
+\section{Experimental Results and Analysis}
+
+\newpage
+\begin{center}
+\Large\textbf{The Second Part（自选题报告）}
+\end{center}
+
+\setcounter{section}{0}\section{Background}
+
+\section{Related Works}
+
+\section{Methods}
+
+\section{Experimental Details}
+加分项，可选。
+
+\section{Experimental Results and Analysis}
+加分项，可选。
+
+
+\end{document}
